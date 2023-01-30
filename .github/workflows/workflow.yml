@@ -1,0 +1,10 @@
+name: github-action-workflow
+
+on: [workflow_dispatch]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'step1-helloWorld'
+        run: echo "Hello world!"
